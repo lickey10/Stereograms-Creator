@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stereograms.CSharp", "Stereograms.CSharp.csproj", "{4ABD770E-BAE7-51C2-9F60-BDAB63718463}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stereograms.CSharp.Editor", "Stereograms.CSharp.Editor.csproj", "{64C3C63D-C26C-F097-8EEE-3299C0180FCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ABD770E-BAE7-51C2-9F60-BDAB63718463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ABD770E-BAE7-51C2-9F60-BDAB63718463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ABD770E-BAE7-51C2-9F60-BDAB63718463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ABD770E-BAE7-51C2-9F60-BDAB63718463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C3C63D-C26C-F097-8EEE-3299C0180FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C3C63D-C26C-F097-8EEE-3299C0180FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C3C63D-C26C-F097-8EEE-3299C0180FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C3C63D-C26C-F097-8EEE-3299C0180FCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+add menu for weapons
+add weapon animation
+add a clear button
+add take a picture button
+add share button
+add settings options to change effects

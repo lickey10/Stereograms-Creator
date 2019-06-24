@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DisplayImageScript.cs">
+    <Files>
+      <File FileName="Assets\Scripts\WebCamScript.cs" Line="30" Column="12" />
+      <File FileName="Assets\Scripts\DisplayImageScript.cs" Line="82" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="E:\utilities\Programming\Unity\MyProjects\AsciiMee\Assets\Scripts\DisplayImageScript.cs" line="204" />
+      <Breakpoint file="E:\utilities\Programming\Unity\MyProjects\AsciiMee\Assets\Scripts\DisplayImageScript.cs" line="158" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

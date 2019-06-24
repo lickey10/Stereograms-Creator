@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\WebCamScript.cs">
+    <Files>
+      <File FileName="Assets\scripts\cannon.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\CreateCube.cs" Line="10" Column="2" />
+      <File FileName="Assets\scripts\TakePicture.cs" Line="18" Column="38" />
+      <File FileName="Assets\scripts\StaticVariables.cs" Line="8" Column="2" />
+      <File FileName="Assets\scripts\WebCamScript.cs" Line="15" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
