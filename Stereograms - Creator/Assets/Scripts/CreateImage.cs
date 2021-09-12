@@ -3,6 +3,7 @@ using System.Collections;
 //using System.Drawing.Imaging;
 using System.Drawing;
 using System.IO;
+using System.Drawing.Imaging;
 
 public class CreateImage : MonoBehaviour {
     public Texture2D PictureToConvert;

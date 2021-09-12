@@ -21,28 +21,28 @@ public class CreateCube : MonoBehaviour {
 		
 		WWW www;
 		
-		if (Application.platform == RuntimePlatform.WindowsWebPlayer ||
-			Application.platform == RuntimePlatform.OSXWebPlayer) {
-			string su = Application.srcValue; 		
-			string qs = su.Substring(su.IndexOf("?") + 1);
-			char [] deli = "=".ToCharArray();
-			string[] ps = qs.Split(deli);
-			www = new WWW(ps[1]);
-			yield return www;
-			image = www.texture; 
-		} else {
+		//if (Application.platform == RuntimePlatform.WindowsWebPlayer ||
+		//	Application.platform == RuntimePlatform.OSXWebPlayer) {
+		//	string su = Application.srcValue; 		
+		//	string qs = su.Substring(su.IndexOf("?") + 1);
+		//	char [] deli = "=".ToCharArray();
+		//	string[] ps = qs.Split(deli);
+		//	www = new WWW(ps[1]);
+		//	yield return www;
+		//	image = www.texture; 
+		//} else {
 			if(StaticVariables.Picture != null)
 				image = StaticVariables.Picture;
-//			else if(image == null)
-//			{
-//				// Use this hardcoded path in editor for testing
-//				www = new WWW("http://www.everyday3d.com/unity3d/cubepict/medusa.jpg");
-//				yield return www;
-//				image = www.texture;
-//			}
-		}
-		
-		image.wrapMode = TextureWrapMode.Clamp;
+        else if (image == null)
+        {
+            // Use this hardcoded path in editor for testing
+            www = new WWW("http://www.everyday3d.com/unity3d/cubepict/medusa.jpg");
+            yield return www;
+            image = www.texture;
+        }
+        //}
+
+        image.wrapMode = TextureWrapMode.Clamp;
 		
 		float ratio = (float)image.width / (float)image.height;
 		
